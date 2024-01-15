@@ -34,7 +34,7 @@ const NavLinks = () => {
         >
           {/* Home link */}
           <NavLink to="/" onClick={() => setIsMenuOpen(false)}>
-            Home
+            Dashboard
           </NavLink>
         </motion.div>
 
@@ -45,7 +45,7 @@ const NavLinks = () => {
         >
           {/* Portfolio link */}
           <NavLink to="/portfolio" onClick={() => setIsMenuOpen(false)}>
-            Portfolio
+            Portfolio Me
           </NavLink>
         </motion.div>
 
@@ -56,7 +56,7 @@ const NavLinks = () => {
         >
           {/* Contact link */}
           <NavLink to="/contact" onClick={() => setIsMenuOpen(false)}>
-            Contact
+            Contact Us
           </NavLink>
         </motion.div>
         <motion.div
