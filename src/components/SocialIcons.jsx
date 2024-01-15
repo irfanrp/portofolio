@@ -21,7 +21,7 @@ const SocialIcons = () => {
 
   return (
     <div className="socialIcons" style={styles.socialIcons}>
-      <a className="icon" style={styles.icon} href="https://github.com/mdyeates">
+      <a className="icon" style={styles.icon} href="https://github.com/irfanrp/">
         {/* GitHub Icon */}
         <motion.i
           initial={{ y: 100, opacity: 0 }}
